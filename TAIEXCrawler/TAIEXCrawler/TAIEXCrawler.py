@@ -38,7 +38,7 @@ fp.close()
 fp = io.open("StockList.txt", "r")
 stocks = fp.read()
 fp.close()
-fp = io.open("QryStock.txt", "wb+")
+fp = io.open("QtyStock.txt", "wb+")
 stock = stocks.split(',')
 i = 0
 while (i < 100):

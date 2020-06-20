@@ -40,7 +40,7 @@ namespace TAIEXTC
             string strQtyStocks;
 
             //讀取股票總股數
-            str = new StreamReader(System.Windows.Forms.Application.StartupPath + "\\QryStock.txt");
+            str = new StreamReader(System.Windows.Forms.Application.StartupPath + "\\QtyStock.txt");
             strQtyStocks = str.ReadLine();
             str.Close();
 
